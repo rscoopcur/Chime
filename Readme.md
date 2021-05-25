@@ -51,3 +51,9 @@ More to come, stay tuned!
 ## What is the purpose of this repo?
 
 This repository is for the development of the starter kit. You can not install Chime with this repository. This repository houses only the source files for the Chime project.
+
+## Additional formatter for Tailwind
+When using a richtext editor, output its content with 
+    @Html.GetGridHtml(Model, "MainContent", "Tailwind")
+
+Formats the ContentGrid with the correct rows columns 
